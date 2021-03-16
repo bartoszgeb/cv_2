@@ -2,39 +2,110 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  font-weight: bold;
+  color: #40514E;
 }
 
 h1 {
-  margin-top: 0;
+  margin: 50px auto 0 auto;
+  line-height: 2;
   font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  margin: 100px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  width: 5%;
 }
 
 .top-container {
-  background-color: #e4f9f5;
+  background-color: #eaf6f6;
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container {}
+.middle-container {
+  margin: 100px auto 10px;
+}
 
-.bottom-container {}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  margin: 40px 0 0;
+}
 
 .top-cloud {
   position: absolute;
-  right: 200px;
+  right: 400px;
   top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 200px;
+  left: 400px;
   bottom: 300px;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  overflow: auto;
+}
+
+.browser-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.kickboxing-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-description {
+  width: 28%;
+  margin: auto;
+}
+
+.footer-description {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-description {
+  width: 28%;
+  margin: 40px auto 20px;
 }
